@@ -1,0 +1,189 @@
+"Equipment Lease Contract","عقد تأجير المعدات"
+"Asset","أصل"
+"Customer","عميل"
+"Supplier","مورد"
+"Sales Invoice","فاتورة مبيعات"
+"Subscription","اشتراك"
+"Payment Terms","شروط الدفع"
+"Timesheet","جدول دوام"
+"Purchase Invoice","فاتورة شراء"
+"Journal Entry","قيد يومية"
+"Maintenance Request","طلب صيانة"
+"Maintenance Visit","زيارة صيانة"
+"Maintenance Schedule","جدول صيانة"
+"Asset Capitalization","رسملة أصل"
+"Profit and Loss Statement","بيان الأرباح والخسائر"
+"Balance Sheet","الميزانية العمومية"
+"Cost Center","مركز تكلفة"
+"Employee","موظف"
+"Role Permissions Manager","مدير صلاحيات الأدوار"
+"Workflow","سير العمل"
+"Customize Form","تخصيص نموذج"
+"Server Scripts","سكربتات الخادم"
+"Email Alert","تنبيه بالبريد الإلكتروني"
+"Workspace","مساحة العمل"
+"Dashboard","لوحة المعلومات"
+"Shortcut Cards","بطاقات الاختصار"
+"Sections","أقسام"
+"Reports","تقارير"
+"Draft","مسودة"
+"Pending Approval","بانتظار الموافقة"
+"Approved","تمت الموافقة"
+"Rejected","مرفوض"
+"Cancelled","ملغى"
+"Active","نشط"
+"Completed","مكتمل"
+"Submit for Approval","تقديم للموافقة"
+"Approve","موافقة"
+"Reject","رفض"
+"Activate Contract","تفعيل العقد"
+"Complete Contract","إكمال العقد"
+"Cancel","إلغاء"
+"Revise and Resubmit","مراجعة وإعادة تقديم"
+"Open","مفتوح"
+"In Progress","قيد التنفيذ"
+"Pending Spares","بانتظار قطع الغيار"
+"Start Work","بدء العمل"
+"Mark as Pending Spares","وضع كـ بانتظار قطع الغيار"
+"Resume Work","استئناف العمل"
+"Complete","إكمال"
+"Purchase Order","أمر شراء"
+"Submit","تقديم"
+"Revise","مراجعة"
+"Account","حساب"
+"Income","إيرادات"
+"Expense","مصروفات"
+"Direct Expenses","مصروفات مباشرة"
+"Indirect Expenses","مصروفات غير مباشرة"
+"Fuel Expenses - Equipment","مصاريف وقود المعدات"
+"Maintenance Expenses - Equipment","مصاريف صيانة المعدات"
+"Spare Parts Expenses - Equipment","مصاريف قطع غيار المعدات"
+"Operator Accommodation Expenses","مصاريف سكن السائقين"
+"Operator Food Expenses","مصاريف تغذية السائقين"
+"Transportation Expenses - Equipment","مصاريف نقل المعدات"
+"Insurance Expenses - Equipment","مصاريف تأمين المعدات"
+"License & Registration Fees - Equipment","رسوم تراخيص وتسجيل المعدات"
+"Depreciation Expense - Equipment","مصروف إهلاك المعدات"
+"Rental Income - Equipment","إيرادات تأجير المعدات"
+"Overtime Charges Income","إيرادات ساعات إضافية"
+"Late Payment Penalties Income","إيرادات غرامات تأخير"
+"Platform Commission Income","إيرادات عمولة المنصة"
+"Heavy Equipment","معدات ثقيلة"
+"Available","متاح"
+"Leased","مؤجر"
+"Under Maintenance","تحت الصيانة"
+"Out of Order","معطل"
+"Out of Service","خارج الخدمة"
+"On Site","في الموقع"
+"In Transit","قيد النقل"
+"Sold","مباع"
+"Fully Depreciated","مستهلك بالكامل"
+"System Administrator","مدير النظام"
+"Accounts Manager","مدير الحسابات"
+"Asset Manager","مدير الأصول"
+"Sales Manager","مدير المبيعات"
+"Operations Manager","مدير العمليات"
+"Maintenance User","مستخدم الصيانة"
+"Maintenance Manager","مدير الصيانة"
+"Stock User","مستخدم المخزون"
+"Purchase User","مستخدم المشتريات"
+"Purchase Manager","مدير المشتريات"
+"Sales User","مستخدم المبيعات"
+"Company","شركة"
+"Customer Type","نوع العميل"
+"Customer Group","مجموعة العملاء"
+"Territory","منطقة"
+"Supplier Type","نوع المورد"
+"Posting Date","تاريخ الترحيل"
+"Due Date","تاريخ الاستحقاق"
+"Item","صنف"
+"Quantity","كمية"
+"Rate","سعر الوحدة"
+"Amount","المبلغ"
+"Expense Account","حساب المصروف"
+"related_asset","الأصل المرتبط"
+"expense_type_category","فئة نوع المصروف"
+"Voucher Type","نوع القيد"
+"Debit","مدين"
+"Credit","دائن"
+"Maintenance Type","نوع الصيانة"
+"Subject","الموضوع"
+"Description","الوصف"
+"Activity","نشاط"
+"Items Used","الأصناف المستخدمة"
+"Item Code","رمز الصنف"
+"Items to Capitalize","أصناف للرسملة"
+"Gross Purchase Amount","إجمالي مبلغ الشراء"
+"Depreciable Value","القيمة القابلة للإهلاك"
+"Financial Statements","البيانات المالية"
+"Timesheet Summary","ملخص جداول الدوام"
+"Maintenance Report","تقرير الصيانة"
+"Customize Form","تخصيص النموذج"
+"Options","خيارات"
+"Read Only","للقراءة فقط"
+"New Account","حساب جديد"
+"Account Name","اسم الحساب"
+"Account Type","نوع الحساب"
+"Is Group","هل هو مجموعة"
+"Parent Account","الحساب الأم"
+"Account Number","رقم الحساب"
+"Balance Must Be","يجب أن يكون الرصيد"
+"Freeze Account","تجميد الحساب"
+"Disabled","معطل"
+"Root Types","أنواع جذرية"
+"Groups","مجموعات"
+"Ledger Accounts","حسابات دفتر الأستاذ"
+"Asset","أصل"
+"Liability","التزام"
+"Equity","حقوق الملكية"
+"Sales","مبيعات"
+"Revenue","إيرادات"
+"Cost of Goods Sold","تكلفة البضاعة المباعة"
+"Administrative Expenses","مصروفات إدارية"
+"Selling Expenses","مصروفات بيعية"
+"Operating Expenses","مصروفات تشغيلية"
+"General & Administrative Expenses","مصروفات عمومية وإدارية"
+"Cash","نقدية"
+"Bank","بنك"
+Equipment Management,إدارة المعدات
+Equipments & Maintenance Management,إدارة المعدات والصيانة
+Asset,معدات
+Asset Category,فئة المعدات
+Asset Maintenance,صيانة المعدات
+Asset Maintenance Log,سجل صيانة المعدات
+Asset Maintenance Task,مهمة صيانة المعدات
+Location,الموقع
+Equipment Driver,سائق المعدة
+License Type,نوع الرخصة
+Supplier,المؤجّر
+Supplier Group,مجموعة المؤجّرين
+Customer,المستأجر
+Customer Group,مجموعة المستأجرين
+Equipment Lease Contract,عقد تأجير المعدات
+Quotation,عرض السعر
+Sales Invoice,فاتورة مبيعات
+Subscription,اشتراك
+Payment Term,شروط الدفع
+Payment Entry,دفعة
+Financial Reports,التقارير المالية
+Profit and Loss Statement,بيان الأرباح والخسائر
+Cash Flow,التدفقات النقدية
+Accounts Receivable Summary,ملخص الحسابات المدينة
+Accounts Payable Summary,ملخص الحسابات الدائنة
+Broken Equipment,معدات معطلة
+Equipment Under Maintenance,معدات تحت الصيانة
+Available Equipment,معدات متاحة
+Leased Equipment,معدات مؤجرة
+Pending Equipment Lease Contract,عقود تأجير المعدات المعلقة
+New Equipment Lease Contract,عقد تأجير معدات جديد
+Overdue Invoices,فواتير متأخرة
+Quick List,قائمة سريعة
+Lessor Details,تفاصيل المؤجرين
+Lessee Details,تفاصيل المستأجرين
+Contracts & Sales Management,إدارة العقود والمبيعات
+Equipment Management,إدارة المعدات
+Maintenance Terms Template,نموذج شروط الصيانة
+Insurance Clauses Template,نموذج بنود التأمين
+Early Termination Clauses Template,نموذج بنود الإنهاء المبكر
+Late Payment Penalties Template,نموذج غرامات التأخير في السداد
+Category-wise Equipment Value,قيمة المعدات حسب التصنيف

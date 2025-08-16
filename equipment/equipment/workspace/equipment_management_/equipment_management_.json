@@ -1,0 +1,429 @@
+{
+ "charts": [
+  {
+   "chart_name": "Category-wise Asset Value",
+   "label": "Category-wise Equipment Value"
+  },
+  {
+   "chart_name": "Profit and Loss",
+   "label": "Profit and Loss"
+  }
+ ],
+ "content": "[{\"id\":\"GItojfXvRg\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Equipment Management </span>\",\"col\":12}},{\"id\":\"3KqTbF1csJ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Profit and Loss\",\"col\":6}},{\"id\":\"QU68IbaFlk\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Category-wise Equipment Value\",\"col\":6}},{\"id\":\"AF9mCUqcbN\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Leased Equipment\",\"col\":3}},{\"id\":\"1yxPYe8ue6\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Available Equipment\",\"col\":3}},{\"id\":\"Ews2mjqLGb\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Equipment Under Maintenance\",\"col\":3}},{\"id\":\"EDi7k-BI4p\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Broken Equipment\",\"col\":3}},{\"id\":\"q4hAX_O8lt\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"vWPdqlVGCo\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\">Quick List</span>\",\"col\":12}},{\"id\":\"TXlENVV7WV\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"New Equipment Lease Contract\",\"col\":4}},{\"id\":\"EGmLtNRvuu\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Pending Equipment Lease Contract\",\"col\":4}},{\"id\":\"X4i0lfLGyB\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Overdue Invoices\",\"col\":4}},{\"id\":\"cGvFFKPikk\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"J1bBl-odXw\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Shortcut</b><b></b></span>\",\"col\":12}},{\"id\":\"iEKztRISPh\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"LUXE4Uw1MB\",\"type\":\"card\",\"data\":{\"card_name\":\"Lessee Details\",\"col\":4}},{\"id\":\"M295UVLgZv\",\"type\":\"card\",\"data\":{\"card_name\":\"Lessor Details\",\"col\":4}},{\"id\":\"8SieYw4H7E\",\"type\":\"card\",\"data\":{\"card_name\":\"Equipment Driver\",\"col\":4}},{\"id\":\"V6UEp3hMmh\",\"type\":\"card\",\"data\":{\"card_name\":\"Equipments & Maintenance Management\",\"col\":4}},{\"id\":\"SVpmO7qWDo\",\"type\":\"card\",\"data\":{\"card_name\":\"Contracts & Sales Management\",\"col\":4}},{\"id\":\"01l7j-aUGd\",\"type\":\"card\",\"data\":{\"card_name\":\"Financial Reports\",\"col\":4}},{\"id\":\"1dSJMbfJ5t\",\"type\":\"card\",\"data\":{\"card_name\":\"Rental Agreement Templates \",\"col\":4}}]",
+ "creation": "2025-07-31 00:30:26.356028",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "fal fa-conveyor-belt-alt",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Equipment Management ",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Financial Reports",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Profit and Loss Statement ",
+   "link_count": 0,
+   "link_to": "Profit and Loss Statement",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "GL Entry",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cash Flow",
+   "link_count": 0,
+   "link_to": "Cash Flow",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "GL Entry",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Accounts Receivable Summary",
+   "link_count": 0,
+   "link_to": "Accounts Receivable Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Sales Invoice",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Accounts Payable Summary",
+   "link_count": 0,
+   "link_to": "Accounts Payable Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Purchase Invoice",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equipment Driver",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equipment Driver",
+   "link_count": 0,
+   "link_to": "Employee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "License Type",
+   "link_count": 0,
+   "link_to": "License Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lessee Details",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customer",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customer Group",
+   "link_count": 0,
+   "link_to": "Customer Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Territory",
+   "link_count": 0,
+   "link_to": "Territory",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lessor Details",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Supplier",
+   "link_count": 0,
+   "link_to": "Supplier",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Supplier Group",
+   "link_count": 0,
+   "link_to": "Supplier Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Contracts & Sales Management",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equipment Lease Contract",
+   "link_count": 0,
+   "link_to": "Equipment Lease Contract",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quotation",
+   "link_count": 0,
+   "link_to": "Quotation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Invoice",
+   "link_count": 0,
+   "link_to": "Sales Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subscription",
+   "link_count": 0,
+   "link_to": "Subscription",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Term",
+   "link_count": 0,
+   "link_to": "Payment Term",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Entry",
+   "link_count": 0,
+   "link_to": "Payment Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Rental Agreement Templates ",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Terms Template",
+   "link_count": 0,
+   "link_to": "Payment Terms Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Maintenance Terms Template",
+   "link_count": 0,
+   "link_to": "Maintenance Terms Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Insurance Clauses Template",
+   "link_count": 0,
+   "link_to": "Insurance Clauses Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Early Termination Clauses Template",
+   "link_count": 0,
+   "link_to": "Early Termination Clauses Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Late Payment Penalties Template",
+   "link_count": 0,
+   "link_to": "Late Payment Penalties Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equipments & Maintenance Management",
+   "link_count": 7,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equipment",
+   "link_count": 0,
+   "link_to": "Asset",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equipment Category",
+   "link_count": 0,
+   "link_to": "Asset Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Location",
+   "link_count": 0,
+   "link_to": "Location",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Maintenance",
+   "link_count": 0,
+   "link_to": "Asset Maintenance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equipment Maintenance Log",
+   "link_count": 0,
+   "link_to": "Asset Maintenance Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equipment Maintenance Task",
+   "link_count": 0,
+   "link_to": "Asset Maintenance Task",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equipment Settings",
+   "link_count": 0,
+   "link_to": "Equipment Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-08-04 19:47:00.648305",
+ "modified_by": "Administrator",
+ "module": "Equipment",
+ "name": "Equipment Management ",
+ "number_cards": [
+  {
+   "label": "Leased Equipment",
+   "number_card_name": "Leased Equipment"
+  },
+  {
+   "label": "Available Equipment",
+   "number_card_name": "Available Equipment"
+  },
+  {
+   "label": "Equipment Under Maintenance",
+   "number_card_name": "Equipment Under Maintenance"
+  },
+  {
+   "label": "Broken Equipment",
+   "number_card_name": "Broken Equipment"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Equipment Lease Contract",
+   "label": "New Equipment Lease Contract",
+   "quick_list_filter": "{\"docstatus\":[\"=\",\"0\"]}"
+  },
+  {
+   "document_type": "Sales Invoice",
+   "label": "Overdue Invoices",
+   "quick_list_filter": "[[\"Sales Invoice\",\"status\",\"=\",\"Overdue\",false]]"
+  },
+  {
+   "document_type": "Equipment Lease Contract",
+   "label": "Pending Equipment Lease Contract",
+   "quick_list_filter": "{\"workflow_state\":[\"=\",\"Pending\"]}"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 3.0,
+ "shortcuts": [],
+ "title": "Equipment Management "
+}

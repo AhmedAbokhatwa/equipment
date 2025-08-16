@@ -1,0 +1,424 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-23 11:19:40.169523",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contract_info_tab",
+  "basic_details_section",
+  "contract_number",
+  "column_break_qm68e",
+  "contract_date",
+  "parties_section",
+  "lessee",
+  "column_break_ofz9c",
+  "lessor",
+  "platform",
+  "equipment_section",
+  "leased_equipment",
+  "rent_item",
+  "geographical_work_location",
+  "column_break_kj7xn",
+  "latitude",
+  "longitude",
+  "duration_and_amounts_tab",
+  "dates_section",
+  "billing_cycle",
+  "contract_duration_days",
+  "contract_duration_weeks",
+  "contract_duration_months",
+  "contract_duration_years",
+  "column_break_bou1v",
+  "start_date",
+  "end_date",
+  "financials_section",
+  "lease_amount",
+  "platform_commission_amount",
+  "column_break_sn7hi",
+  "agreed_daily_working_hours",
+  "hourly_rate",
+  "overtime_hourly_rate",
+  "platform_commission_percentage",
+  "section_break_fgat",
+  "payment_schedule_table",
+  "section_break_vhho",
+  "total_lease_amount",
+  "column_break_ezgm",
+  "total_owner_amount",
+  "total_platform_commission_amount",
+  "terms_tab",
+  "payment_terms_section",
+  "payment_terms_template",
+  "terms_and_conditions_section",
+  "terms",
+  "terms_and_conditions_details",
+  "amended_from",
+  "maintenance_terms_template",
+  "maintenance_terms",
+  "insurance_clauses_template",
+  "insurance_clauses",
+  "early_termination_clauses_template",
+  "early_termination_clauses",
+  "late_payment_penalties_template",
+  "late_payment_penalties",
+  "related_subscription"
+ ],
+ "fields": [
+  {
+   "fieldname": "contract_number",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Contract Number",
+   "no_copy": 1,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "contract_date",
+   "fieldtype": "Date",
+   "label": "Contract Date"
+  },
+  {
+   "fieldname": "lessee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Lessee",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lessor",
+   "fieldtype": "Link",
+   "label": "Lessor",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "platform",
+   "fieldtype": "Link",
+   "label": "Platform",
+   "options": "Company"
+  },
+  {
+   "fieldname": "leased_equipment",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Leased Equipment",
+   "options": "Asset",
+   "reqd": 1
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "agreed_daily_working_hours",
+   "fieldtype": "Float",
+   "label": "Agreed Daily Working Hours"
+  },
+  {
+   "fieldname": "column_break_sn7hi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hourly_rate",
+   "fieldtype": "Currency",
+   "label": "Hourly Rate"
+  },
+  {
+   "fieldname": "overtime_hourly_rate",
+   "fieldtype": "Currency",
+   "label": "Overtime Hourly Rate"
+  },
+  {
+   "fieldname": "payment_terms_section",
+   "fieldtype": "Section Break",
+   "label": "Payment Terms"
+  },
+  {
+   "fieldname": "terms_tab",
+   "fieldtype": "Tab Break",
+   "label": "Terms"
+  },
+  {
+   "fieldname": "payment_terms_template",
+   "fieldtype": "Link",
+   "label": "Payment Terms Template",
+   "options": "Payment Terms Template"
+  },
+  {
+   "fieldname": "terms_and_conditions_section",
+   "fieldtype": "Section Break",
+   "label": "Terms and Conditions"
+  },
+  {
+   "fieldname": "terms",
+   "fieldtype": "Link",
+   "label": "Terms",
+   "options": "Terms and Conditions"
+  },
+  {
+   "fieldname": "terms_and_conditions_details",
+   "fieldtype": "Text Editor",
+   "label": "Terms and Conditions Details"
+  },
+  {
+   "fieldname": "contract_info_tab",
+   "fieldtype": "Tab Break",
+   "label": "Contract Info"
+  },
+  {
+   "fieldname": "basic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  },
+  {
+   "fieldname": "parties_section",
+   "fieldtype": "Section Break",
+   "label": " Parties"
+  },
+  {
+   "fieldname": "column_break_ofz9c",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Equipment Lease Contract",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "equipment_section",
+   "fieldtype": "Section Break",
+   "label": "Equipment"
+  },
+  {
+   "fieldname": "duration_and_amounts_tab",
+   "fieldtype": "Tab Break",
+   "label": "Duration And Amounts"
+  },
+  {
+   "fieldname": "dates_section",
+   "fieldtype": "Section Break",
+   "label": "Dates"
+  },
+  {
+   "fieldname": "column_break_bou1v",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "financials_section",
+   "fieldtype": "Section Break",
+   "label": "Financials",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "platform_commission_percentage",
+   "fieldtype": "Percent",
+   "label": "Platform Commission Percentage"
+  },
+  {
+   "fieldname": "maintenance_terms_template",
+   "fieldtype": "Link",
+   "label": "Maintenance Terms Template",
+   "options": "Maintenance Terms Template"
+  },
+  {
+   "fieldname": "maintenance_terms",
+   "fieldtype": "Text Editor",
+   "label": "Maintenance Terms"
+  },
+  {
+   "fieldname": "insurance_clauses_template",
+   "fieldtype": "Link",
+   "label": "Insurance Clauses Template",
+   "options": "Insurance Clauses Template"
+  },
+  {
+   "fieldname": "insurance_clauses",
+   "fieldtype": "Text Editor",
+   "label": "Insurance Clauses"
+  },
+  {
+   "fieldname": "early_termination_clauses_template",
+   "fieldtype": "Link",
+   "label": "Early Termination Clauses Template",
+   "options": "Early Termination Clauses Template"
+  },
+  {
+   "fieldname": "early_termination_clauses",
+   "fieldtype": "Text Editor",
+   "label": "Early Termination Clauses"
+  },
+  {
+   "fieldname": "late_payment_penalties_template",
+   "fieldtype": "Link",
+   "label": "Late Payment Penalties Template",
+   "options": "Late Payment Penalties Template"
+  },
+  {
+   "fieldname": "late_payment_penalties",
+   "fieldtype": "Text Editor",
+   "label": "Late Payment Penalties"
+  },
+  {
+   "fieldname": "column_break_qm68e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "geographical_work_location",
+   "fieldtype": "Link",
+   "label": "Geographical Work Location",
+   "options": "Location"
+  },
+  {
+   "fieldname": "column_break_kj7xn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Float",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Float",
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "related_subscription",
+   "fieldtype": "Link",
+   "label": "Related Subscription",
+   "options": "Subscription"
+  },
+  {
+   "fieldname": "contract_duration_days",
+   "fieldtype": "Data",
+   "label": "Contract Duration Days",
+   "read_only": 1
+  },
+  {
+   "fieldname": "billing_cycle",
+   "fieldtype": "Select",
+   "label": "Billing Cycle",
+   "options": "Daily\nWeekly\nMonthly\nYearly"
+  },
+  {
+   "fieldname": "lease_amount",
+   "fieldtype": "Currency",
+   "label": "Lease Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "platform_commission_amount",
+   "fieldtype": "Currency",
+   "label": "Platform Commission Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_vhho",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_lease_amount",
+   "fieldtype": "Currency",
+   "label": "Total Lease Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ezgm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_owner_amount",
+   "fieldtype": "Currency",
+   "label": " Total Owner Amount  ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_platform_commission_amount",
+   "fieldtype": "Currency",
+   "label": "Total Platform Commission Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "contract_duration_weeks",
+   "fieldtype": "Data",
+   "label": "Contract Duration Weeks",
+   "read_only": 1
+  },
+  {
+   "fieldname": "contract_duration_months",
+   "fieldtype": "Data",
+   "label": "Contract Duration Months",
+   "read_only": 1
+  },
+  {
+   "fieldname": "contract_duration_years",
+   "fieldtype": "Data",
+   "label": "Contract Duration Years",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_fgat",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_schedule_table",
+   "fieldtype": "Table",
+   "label": "Payment Schedule Table",
+   "options": "Equipment Lease Contract Detail"
+  },
+  {
+   "fieldname": "rent_item",
+   "fieldtype": "Link",
+   "label": "Rent Item",
+   "options": "Item",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-08-03 16:11:39.844491",
+ "modified_by": "Administrator",
+ "module": "Equipment",
+ "name": "Equipment Lease Contract",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
